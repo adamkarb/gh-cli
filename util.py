@@ -1,6 +1,6 @@
 import sys
 
-def prompt(question, raw=False):
+def prompt(question, raw):
     user_input = input(question + '\n> ')
     if raw:
         return user_input
